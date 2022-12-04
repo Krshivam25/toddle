@@ -1,0 +1,124 @@
+.nav-bar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #ffffff;
+  justify-content: space-between;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #EBEBEB;
+}
+.nav-bar-search {
+  display: flex;
+  justify-content: flex-end;
+}
+.search_Barctr {
+  display: flex;
+  min-width: 600px;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-bar {
+  height: 0px;
+}
+.header-btn {
+  padding: 7px 16px;
+  background-color: #d33852;
+  border: none;
+  border-radius: 8px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header-btn-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+/* /Modal Css is here */
+
+.modal-container {
+  width: 458px;
+  height: 364px;
+  border-radius: 8px;
+  padding: 21px 26px;
+}
+.modal-header {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal-header-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+.cross-icon {
+  cursor: pointer;
+}
+
+.select-color-description {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  
+}
+.input-title-container input{
+  border: 1px solid #DBDBDB;
+  margin-top: 16px;
+  border-radius: 4px;
+  padding: 10px 13px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  width: 400px;
+}
+.select-color-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.select-color-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: black;
+}
+.TEXT {
+  margin-top: 2rem;
+}
+
+.color-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 16px;
+}
+
+.color {
+  width: 24.05px;
+  height: 24.05px;
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.create-board-btn {
+  background-color: #AF273E;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  height: 40px;
+}

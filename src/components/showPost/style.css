@@ -1,0 +1,67 @@
+.card-container {
+  display: flex;
+  gap: 40px;
+}
+
+.card-child-container {
+  padding: 16px;
+  max-width: 275px;
+  max-height: 577px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.card-header-text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bookmark_container {
+  display: flex;
+  align-items: center;
+}
+
+.img-container {
+  max-width: 250px;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.post-description {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+
+
+.post-footer {
+  border-top: 1px solid #EBEBEB;
+  width: 241px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  margin-top: 10px;
+}
+
+
+.date {
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #B0B0B0;
+  align-self: flex-start;
+}

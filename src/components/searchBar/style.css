@@ -1,0 +1,28 @@
+
+.search-bar {
+  border: 1px solid #EBEBEB;
+  padding: 1.1rem;
+  align-items: center;
+  display: flex;
+  width: 284px;
+  border-radius: 6px;
+  margin-right: 80px;
+}
+.search-text {
+  padding: 0.5rem;
+  position: absolute;
+  width: 270px;
+  outline: none;
+  margin-left: 15px;
+  border: none;
+}
+input::placeholder {
+  font: 14px/3 sans-serif;
+  padding-left: 1rem;
+  color: rgba(0, 0, 0, 0.525);
+}
+.searchIcon {
+  position: absolute;
+  z-index: 999;
+  margin-left: .2rem;
+}

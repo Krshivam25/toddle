@@ -1,0 +1,104 @@
+.home-screen {
+  padding-left: 70px;
+  padding-top: 40px;
+  font-family: sans-serif;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.All_Data {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 364px;
+  height: 80px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid #EBEBEB;
+  border-left: none;
+}
+
+.item-color-container {
+  height: 80px;
+  flex: 1;
+  border: 1px solid #EBEBEB;
+  border-right: none;
+  border-end-start-radius: 0.5rem;
+  border-start-start-radius: 0.5rem;
+  border-right: none;
+}
+
+.item-inner-container-2 {
+  flex: 2.5;
+  display: flex;
+
+}
+
+.item-inner-container-2 .file-name {
+  margin-left: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.item-inner-container-3 {
+  flex: .5;
+  position: relative;
+}
+
+.float-box {
+  padding: 8px 8px 8px 8px;
+  background-color: white;
+  width: 120px;
+  position: absolute;
+  top: 1.5rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: auto;
+}
+
+.edit-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .4rem;
+  margin-left: .5rem;
+  cursor: pointer;
+
+}
+
+.delete-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: .5rem;
+  cursor: pointer;
+  gap: .4rem;
+
+}
+
+.action-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171
+}
+.action-text-delete {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #D33852;
+}

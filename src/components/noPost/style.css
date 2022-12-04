@@ -1,0 +1,24 @@
+.blank-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  position: absolute;
+  left: 40%;
+  flex-direction: column;
+}
+.nothing-text {
+  font-weight: 700;
+  font-size: 16px;
+  font-weight: 21px;
+  text-align: center;
+}
+.text-container {
+  flex-direction: column;
+  display: flex;
+}
+.desc-text {
+  font-size: 14px;
+  font-weight: 19px;
+  font-weight: 400;
+}
